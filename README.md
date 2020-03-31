@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:ddcb376eae54143e14154b1fbfbebabf182c77c3c12582e9925d831a5a46ee00
-size 10409
-=======
 Read my blog post about an issue I ran into while working on this project:
 [Handling Large Files](https://medium.com/@cheffrey2000/handling-large-files-on-github-c62e9e96d16a?sk=7b01254d52ec6c7b5ebcd7dd84acb221)
 # Sentiment Analysis:  
@@ -175,4 +170,3 @@ Being able to understand the sentiment of the reviews and the words associated w
 ```python
 
 ```
->>>>>>> 131e70b56277d1999191d084d0a0024ae3e71f2e
