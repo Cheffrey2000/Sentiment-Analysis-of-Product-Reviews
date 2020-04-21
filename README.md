@@ -3,7 +3,7 @@ Extracting Sentiment from Amazon Reviews
 
 ***
 
-<img align="left" src='amazon_gif.JPG' width="400"  alt="Amazon Review graphic" title='Amazon Pic' />
+<img align="left" src='amazon_gif.jpg' width="400"  alt="Amazon Review graphic" title='Amazon Pic' />
 
 ***
 
@@ -15,7 +15,7 @@ Customer reviews are extremely important these days.  A review on a product can 
 
 E-commerce sellers are constantly fighting for the top position in a search as well as the good reviews that give customers the confidence to purchase a product. Some sellers will even ask influencers to provide reviews in exchange for product discounts or even total purchase price reimbursement. This makes learning the key words that drive positive reviews very important. We aim to build a dashboard which will scrape Amazon in real time and provide those words within your chosen criteria.
 
-<img align="right" src='seller_rank.PNG' width="400"  alt="Seller rank graphic" title='Seller Rank Pic' />
+<img align="right" src='seller_rank.png' width="400"  alt="Seller rank graphic" title='Seller Rank Pic' />
 
 ## The Data 
 
@@ -26,7 +26,7 @@ The dataset contains the customer review text with accompanying metadata :
 - A collection of reviews written in the Amazon.com marketplace and associated metadata from 1995 until 2015. This is intended to facilitate study into the properties (and the evolution) of customer reviews potentially including how people evaluate and express their experiences with respect to products at scale.
 
 
-<img align='left' src='Dataframe.jpg' width='800' alt='Dataframe Image' title='Dataframe Image' />
+<img align='left' src='Dataframe.JPG' width='800' alt='Dataframe Image' title='Dataframe Image' />
 
 #### The data is offered as almost 50 zip files separated by category and contained a total of over 140 Million reviews.    
 To get a more manageable size file to work with it was necessary to do the following:  
@@ -64,7 +64,7 @@ A few columns were not important to this study, so they were removed.
 There were also a few entries with Null values, and due to their small number, they were simply removed from the analysis.  
 This process can be seen here: [Dropping the Null Values](./ETL%20-%20Building%20the%20Working%20Dataset.ipynb#dropping_nulls)
 
-<img align='left' src='null_values.JPG' width='800' alt='Null Value Counts' title='Value Counts' />
+<img align='center' src='null_values.JPG' width='800' alt='Null Value Counts' title='Value Counts' />
 
 # Processing the Text  
 The next step in the process was to tokenize the text using the tools available  in the NLTK Package. With these tools, new features were engineered for the analysis, the features are as follows:
@@ -94,17 +94,17 @@ In order to get a better idea of the data, and to see if any further processing 
 #### First a graph of the frequency of the most popular words was made from the Frequency Distribution.  
 The graph can be found here: [Frequency Distribution Graph](./Pipeline.ipynb#freq_dist_graph)
 
-<img align='left' src='all_words_bar.png' width='800' alt='All Words Frequency Distribution' title='All Negative Words' />
+<img align='center' src='all_words_bar.png' width='800' alt='All Words Frequency Distribution' title='All Negative Words' />
 
 #### Next a graph of the frequency of the most popular words from the negative reviews.  
 The graph  can be found here: [Negative words Frequency Distribution Graph](./Pipeline.ipynb#neg_freq_dist) 
 
-<img align='left' src='neg_words_bar.png' width='800' alt='Negative Words Frequency Distribution' title='Negative Words' />
+<img align='center' src='neg_words_bar.png' width='800' alt='Negative Words Frequency Distribution' title='Negative Words' />
 
 #### Next a graph of the frequency of the most popular words from the positive reviews.  
 The graph  can be found here: [Positive words Frequency Distribution Graph](./Pipeline.ipynb#pos_freq_dist)
 
-<img align='left' src='pos_words_bar.png' width='800' alt='Positive Words Frequency Distribution' title='All Positive Words' />
+<img align='center' src='pos_words_bar.png' width='800' alt='Positive Words Frequency Distribution' title='All Positive Words' />
 
 #### In order to get a better visualization of the words in each category, a WordCloud was created from each frequency distribution.  
 
