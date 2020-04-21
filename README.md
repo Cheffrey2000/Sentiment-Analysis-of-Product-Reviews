@@ -3,7 +3,7 @@ Extracting Sentiment from Amazon Reviews
 
 ***
 
-<img align="left" src='amazon_gif.jpg' width="400"  alt="Amazon Review graphic" title='Amazon Pic' />
+<img align="center" src='amazon_gif.jpg' width="400"  alt="Amazon Review graphic" title='Amazon Pic' />
 
 ***
 
@@ -15,7 +15,7 @@ Customer reviews are extremely important these days.  A review on a product can 
 
 E-commerce sellers are constantly fighting for the top position in a search as well as the good reviews that give customers the confidence to purchase a product. Some sellers will even ask influencers to provide reviews in exchange for product discounts or even total purchase price reimbursement. This makes learning the key words that drive positive reviews very important. We aim to build a dashboard which will scrape Amazon in real time and provide those words within your chosen criteria.
 
-<img align="right" src='seller_rank.png' width="400"  alt="Seller rank graphic" title='Seller Rank Pic' />
+<img align="rcenter" src='seller_rank.png' width="400"  alt="Seller rank graphic" title='Seller Rank Pic' />
 
 ## The Data 
 
@@ -26,7 +26,7 @@ The dataset contains the customer review text with accompanying metadata :
 - A collection of reviews written in the Amazon.com marketplace and associated metadata from 1995 until 2015. This is intended to facilitate study into the properties (and the evolution) of customer reviews potentially including how people evaluate and express their experiences with respect to products at scale.
 
 
-<img align='left' src='Dataframe.JPG' width='800' alt='Dataframe Image' title='Dataframe Image' />
+<img align='center' src='Dataframe.JPG' width='800' alt='Dataframe Image' title='Dataframe Image' />
 
 #### The data is offered as almost 50 zip files separated by category and contained a total of over 140 Million reviews.    
 To get a more manageable size file to work with it was necessary to do the following:  
